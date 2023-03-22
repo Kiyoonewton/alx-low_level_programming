@@ -15,10 +15,4 @@ int _islower(int c)
 	if (c >= 97 && c <= 122)
 		return (1);
 	return (0);
-}/**
- * _islower - To char lower character
- *
- * @c: The character to be checked
- *
- * Return: if lowercase return 1 else 0
- */
+}
