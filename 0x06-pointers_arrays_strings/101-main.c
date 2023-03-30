@@ -1,6 +1,5 @@
-julien@ubuntu:~/0x06$ cat 101-main.c
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - check the code
  *
