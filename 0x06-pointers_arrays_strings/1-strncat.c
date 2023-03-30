@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 #include <string.h>
 
 /**
@@ -6,8 +6,10 @@
  *
  * @dest: first pointer to concatenate
  *
- * @char: second pointer to concatenate with
- * 
+ * @src: second pointer to concatenate with
+ *
+ * @n: the number of bytes to reserve
+ *
  * Return: return dest
  */
 char *_strncat(char *dest, char *src, int n)
