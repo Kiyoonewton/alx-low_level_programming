@@ -11,14 +11,14 @@ int main(void)
 
 	int n = (sizeof(a) / sizeof(int));
 
-	printf("%d", n);
+	printf("%d\n", n);
 	
-	int i = 1;
 
-	while(n-i >= 0)
+	for (int i = 0; i < n; i++)
 	{
-		printf("%d", (n - i));
-		i--;
+		printf("%d", n - i - 1);
+		printf("n[%d]", i); 
+		
 	}
 
 	printf("\n");
