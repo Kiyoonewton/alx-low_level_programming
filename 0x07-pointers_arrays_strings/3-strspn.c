@@ -1,6 +1,5 @@
 /**
- * _strspn - a functions that compare and printout the 
-Number of char that are the same as the one in s
+ * _strspn - a functions that compare and printout the
  *
  * @s: pointer to string
  * @accept: substring prefix
