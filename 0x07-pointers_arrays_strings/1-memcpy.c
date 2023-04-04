@@ -1,7 +1,7 @@
 /**
  * _memcpy - function that copies memory area
  *
- * @dest: buffer destination 
+ * @dest: buffer destination
  * @src: buffer source
  * @n: n bytes of buffer
  *
