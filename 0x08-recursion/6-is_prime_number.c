@@ -2,7 +2,7 @@
  * is_prime_number - function to check if n is prime
  *
  * @n: input number
- * @a: input 
+ * @a: input from is_prime_number
  *
  * Return: return 1 if prime and 0 if not
  */
@@ -22,7 +22,7 @@ int is_prime(int n, int a)
 	}
 	else
 	{
-		return is_prime(n, a + 1);
+		return (is_prime(n, a + 1));
 	}
 }
 /**
@@ -33,5 +33,5 @@ int is_prime(int n, int a)
  */
 int is_prime_number(int n)
 {
-	return is_prime(n, 2);
+	return (is_prime(n, 2));
 }
