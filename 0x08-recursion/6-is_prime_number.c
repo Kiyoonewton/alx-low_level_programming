@@ -1,5 +1,5 @@
 /**
- * is_prime_number - function to check if n is prime
+ * is_prime - function to check if n is prime
  *
  * @n: input number
  * @a: input from is_prime_number
