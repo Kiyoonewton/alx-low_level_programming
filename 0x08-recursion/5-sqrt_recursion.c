@@ -36,7 +36,7 @@ int square_root_helper(int n, int low, int high)
 	int mid;
 	if (low > high)
 	{
-		return (-1);
+		return (high);
 	}
 	mid = low + ((high - low) / 2);
 
