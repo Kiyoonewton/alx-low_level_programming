@@ -14,11 +14,12 @@
 int main(int argc, char *argv[])
 {
 	int a, c;
+
 	if (argc == 3)
 	{
 		a = atoi(argv[1]);
 		c = atoi(argv[2]);
-		printf("%d\n", a *c);
+		printf("%d\n", a * c);
 		return (0);
 	}
 	printf("Error\n");
