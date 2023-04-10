@@ -4,11 +4,11 @@
 #include <string.h>
 
 /**
- * check_num - check - string there are digit
+ * check_num - check string there are digit
  *
  * @str: array str
  *
- * Return; Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int check_num(char *str)
@@ -20,13 +20,13 @@ int check_num(char *str)
 	while (count < strlen(str))
 
 	{
-	if (!isdigit(str[count]))
-	{
-	return (0);
-	}
-
-	count++;
+		if (!isdigit(str[count]))
+		{
+			return (0);
 		}
+
+		count++;
+	}
 	return (1);
 }
 
@@ -37,7 +37,7 @@ int check_num(char *str)
  *
  * @argv: Arguments
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 	count = 1;
 	while (count < argc)
 	{
-		if(check_num(argv[count]))
+		if (check_num(argv[count]))
 
 		{
 			str_to_int = atoi(argv[count]);
