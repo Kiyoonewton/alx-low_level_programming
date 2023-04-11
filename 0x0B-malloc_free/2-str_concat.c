@@ -3,9 +3,9 @@
 
 /**
  * str_concat - function to concatenates two strings.
-
+ *
  * @s1: first string.
-
+ *
  * @s2: second string.
  *
  * Return: pointer of an array of chars
