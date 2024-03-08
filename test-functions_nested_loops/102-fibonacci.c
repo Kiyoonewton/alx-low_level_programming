@@ -9,7 +9,7 @@
 int main(void)
 {
 	unsigned long a = 1, b = 2, d;
-	int e, c = 10;
+	int e, c = 98;
 
 	printf("%lu, ", a);
 	printf("%lu, ", b);
