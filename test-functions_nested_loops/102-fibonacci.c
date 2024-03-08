@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	unsigned long a = 1, b = 2, d;
+	long long a = 1, b = 2, d;
 	int e, c = 98;
 
-	printf("%lu, ", a);
-	printf("%lu, ", b);
+	printf("%lld, ", a);
+	printf("%lld, ", b);
 
 	for (e = 0; e < c; e++)
 	{
 		d = a + b;
-		printf("%lu", d);
+		printf("%lld", d);
 		a = b;
 		b = d;
 
