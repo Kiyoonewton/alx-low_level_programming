@@ -1,14 +1,14 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * print_number - Prints an integer.
  *
  * @n: The integer to be printed.
-*/
+ */
 
 void print_number(int n)
 {
-	unsigned int num = n;
+	int num = n;
 
 	/*first check if its negative*/
 	if (n < 0)
@@ -17,7 +17,7 @@ void print_number(int n)
 		num = -num;
 	}
 
-	/*print the first few digits*/
+	/*Recursion*/
 	if ((num / 10) > 0)
 		print_number(num / 10);
 
